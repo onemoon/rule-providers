@@ -49,6 +49,11 @@
     "LICENSE",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest",
+    "registry": "https://registry.npmjs.com/"
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-git"
