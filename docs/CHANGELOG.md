@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/onemoon/rule-providers/compare/v1.0.2...v1.1.0) (2023-05-28)
+
+
+### Features
+
+* **rules:** add new rules ([b62a20d](https://github.com/onemoon/rule-providers/commit/b62a20dd15fd3cc8ffba140670efcb3df916b84a))
+
 ## [1.0.2](https://github.com/onemoon/rule-providers/compare/v1.0.1...v1.0.2) (2023-05-28)
 
 
