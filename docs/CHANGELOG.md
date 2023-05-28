@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/onemoon/rule-providers/compare/v1.0.0...v1.0.1) (2023-05-28)
+
+
+### Bug Fixes
+
+* npm publish config error ([b4e7812](https://github.com/onemoon/rule-providers/commit/b4e78122cc6505b51e1118c4e1580a920fe48755))
+
 # 1.0.0 (2023-05-28)
 
 
