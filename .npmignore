@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+node_modules/
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# cache
+.cache
+.temp
+
+# build
+
+# System Files
+.DS_Store
+Thumbs.db

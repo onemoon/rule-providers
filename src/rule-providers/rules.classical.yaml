@@ -1,0 +1,26 @@
+payload:
+  - DOMAIN,docs.npmjs.com
+  - DOMAIN,npmjs.com
+  - DOMAIN-SUFFIX,deepl.com
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,codepen.io
+  - DOMAIN-SUFFIX,swiperjs.com
+  - DOMAIN-SUFFIX,atlassian.net
+  - DOMAIN-SUFFIX,typescriptlang.org
+  - DOMAIN-SUFFIX,typeorm.io
+  - DOMAIN-SUFFIX,vpnxxw.com
+  - DOMAIN-SUFFIX,cnbeta.com.tw
+  - DOMAIN-SUFFIX,wire.com
+  - DOMAIN-SUFFIX,dmhy.org
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,scribd.com
+  - DOMAIN-SUFFIX,goo.gle
+  - DOMAIN-SUFFIX,hackmd.io
+  - DOMAIN-SUFFIX,gitversion.net
+  - DOMAIN-SUFFIX,dart.dev
+  - DOMAIN-SUFFIX,mozilla.org
+  - DOMAIN-SUFFIX,ideachat.top
+  - DOMAIN-SUFFIX,gitlab.com
+  - DOMAIN-SUFFIX,angular.io
+  - DOMAIN-KEYWORD,rarbg
+  - DOMAIN-KEYWORD,libgen

@@ -1,0 +1,57 @@
+{
+  "name": "@lp-clash/rule-providers",
+  "version": "1.0.0",
+  "description": "A self-used collection of rule providers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "commit": "git-cz",
+    "build": "gulp build",
+    "prepare": "husky install",
+    "format:check": "prettier --list-different \"**/*{js,mjs}\"",
+    "format:write": "prettier --write \"**/*{js,mjs}\"",
+    "update-readme": "node scripts/update-links.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onemoon/rule-providers.git"
+  },
+  "author": "lpeng <lpengmoon@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "clash",
+    "rule",
+    "provider",
+    "parsers"
+  ],
+  "bugs": {
+    "url": "https://github.com/onemoon/rule-providers/issues"
+  },
+  "homepage": "https://github.com/onemoon/rule-providers#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "chalk": "^5.2.0",
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.6.1",
+    "fs-extra": "^11.1.1",
+    "gulp": "^4.0.2",
+    "husky": "^8.0.3",
+    "prettier": "2.8.8",
+    "semantic-release": "^21.0.2"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
+}
