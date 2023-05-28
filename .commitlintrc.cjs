@@ -4,6 +4,7 @@ module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
     // @see: https://commitlint.js.org/#/reference-rules
+    'body-max-line-length': () => [1, 'always', 100],
   },
   prompt: {
     alias: { fd: 'docs: fix typos' },

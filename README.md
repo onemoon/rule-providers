@@ -1,4 +1,4 @@
-# Rule sets
+# Rule Providers
 
 A private collection of `clash` rule providers. :key::unlock:
 
