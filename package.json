@@ -1,6 +1,6 @@
 {
   "name": "@lp-clash/rule-providers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A self-used collection of rule providers",
   "main": "index.js",
   "type": "module",

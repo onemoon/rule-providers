@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/onemoon/rule-providers/compare/v1.0.1...v1.0.2) (2023-05-28)
+
+
+### Bug Fixes
+
+* **release:** npm publish error ([1056e74](https://github.com/onemoon/rule-providers/commit/1056e74bc1476bd1410ce7696a02f5f99b818f87))
+
 ## [1.0.1](https://github.com/onemoon/rule-providers/compare/v1.0.0...v1.0.1) (2023-05-28)
 
 
