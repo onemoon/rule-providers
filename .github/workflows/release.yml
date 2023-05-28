@@ -10,6 +10,12 @@ jobs:
     name: Build and Release
     runs-on: ubuntu-latest
     permissions:
+      actions: write
+      contents: write
+      issues: write
+      packages: write
+      pages: write
+      pull-requests: write
       id-token: write # to enable use of OIDC for npm provenance
 
     steps:
