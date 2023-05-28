@@ -91,6 +91,7 @@ module.exports = {
       'package',
       'lint',
       'config',
+      'publish',
     ],
     enableMultipleScopes: true,
     scopeEnumSeparator: ',',

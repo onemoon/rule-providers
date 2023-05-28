@@ -50,9 +50,7 @@
     "README.md"
   ],
   "publishConfig": {
-    "access": "public",
-    "tag": "latest",
-    "registry": "https://registry.npmjs.com/"
+    "access": "public"
   },
   "config": {
     "commitizen": {
