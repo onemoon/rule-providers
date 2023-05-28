@@ -22,5 +22,6 @@ payload:
   - DOMAIN-SUFFIX,ideachat.top
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,angular.io
+  - DOMAIN-SUFFIX,typescriptlang.org
   - DOMAIN-KEYWORD,rarbg
   - DOMAIN-KEYWORD,libgen
