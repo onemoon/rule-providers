@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/onemoon/rule-providers/compare/v1.2.0...v1.2.1) (2023-05-29)
+
+
+### Bug Fixes
+
+* **providers:** remove the wrong link of github jsdelivr ([21ce376](https://github.com/onemoon/rule-providers/commit/21ce3769ba39cab49a0972fd7661de81f7e32d2e))
+
 # [1.2.0](https://github.com/onemoon/rule-providers/compare/v1.1.0...v1.2.0) (2023-05-28)
 
 
