@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "commit": "git-cz",
+    "commit": "npm run format:check && git-cz",
     "build": "gulp build",
     "prepare": "husky install",
-    "format:check": "prettier --list-different \"**/*{js,mjs}\"",
-    "format:write": "prettier --write \"**/*{js,mjs}\"",
-    "update-readme": "node scripts/update-links.mjs"
+    "format:check": "prettier --list-different \"**/*{js,mjs,cjs}\"",
+    "format:write": "prettier --write \"**/*{js,mjs,cjs}\"",
+    "generate:jsdelivr": "node scripts/jsdelivr.mjs"
   },
   "repository": {
     "type": "git",

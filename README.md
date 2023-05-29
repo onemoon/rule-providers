@@ -2,25 +2,15 @@
 
 A private collection of `clash` rule providers. :key::unlock:
 
-## jsdelivr link of rule providers
+## jsDelivr links
 
-### classical
-
-```md
+```javascript
+// classical
 https://cdn.jsdelivr.net/npm/@lp-clash/rule-providers@latest/dist/rule-providers/rules.classical.yaml
 
-https://cdn.jsdelivr.net/gh/onemoon/@lp-clash/rule-providers@latest/src/rule-providers/rules.classical.yaml
-```
-
-### domain
-
-```md
+// domain
 https://cdn.jsdelivr.net/npm/@lp-clash/rule-providers@latest/dist/rule-providers/rules.domain.yaml
-
-https://cdn.jsdelivr.net/gh/onemoon/@lp-clash/rule-providers@latest/src/rule-providers/rules.domain.yaml
 ```
-
-**Note**: Recommend using the jsDelivr link with `npm`, it will keep up with the new version updates.
 
 ## Software
 
@@ -30,8 +20,8 @@ https://cdn.jsdelivr.net/gh/onemoon/@lp-clash/rule-providers@latest/src/rule-pro
 
 1. Open `Clash for Windows` software.
 2. Select `Settings` from the left sidebar.
-3. Scroll to `Profiles` and click the `Edit` button to open the parsers file, and then edit it [ [Config wiki](https://docs.cfw.lbyczf.com/contents/parser.html#%E8%BF%9B%E9%98%B6%E6%96%B9%E6%B3%95-javascript) ]
-4. Select the proper jsDelivr link to use in the parsers file
+3. Navigate to `Profiles`, select the `Edit` button to open the parser file in a text editor, and proceed to modify it. [ [Config wiki](https://docs.cfw.lbyczf.com/contents/parser.html#%E8%BF%9B%E9%98%B6%E6%96%B9%E6%B3%95-javascript) ]
+4. Pick an appropriate jsDelivr link to use in the parsers file.
 
 ## Configuration and Wiki
 

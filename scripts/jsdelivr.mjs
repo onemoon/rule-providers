@@ -16,10 +16,7 @@ const readme = 'README.md';
 
 /** `jsdelivr` root point */
 const rootEndpoint = 'https://cdn.jsdelivr.net';
-const keys = [
-  { key: 'npm', path: 'dist/rule-providers' },
-  { key: 'gh/onemoon', path: 'src/rule-providers' },
-];
+const keys = [{ key: 'npm', path: 'dist/rule-providers' }];
 
 // Get package's name
 const packageContent = readFileSync(packagePath);
@@ -60,7 +57,7 @@ readdir(directoryPath, (err, files) => {
     const linksStr = linkList
       .map(({ links, type }) => {
         const linkStr = links.join('\n\n');
-        return `### ${type}\n\n\`\`\`md\n${linkStr}\n\`\`\``;
+        return `\/\/ ${type}\n${linkStr}`;
       })
       .join('\n\n');
 
@@ -72,10 +69,10 @@ readdir(directoryPath, (err, files) => {
         return;
       }
       // # Rule sets
-      const regex = /(?<=\:\n)[\s\S]*(?=\n\*\*Note)/;
+      const regex = /(?<=## jsDelivr links\n)[\s\S]*(?=\n## Software)/;
       const replacedContent = mdContent.replace(
         regex,
-        `\n## jsdelivr link of rule providers\n\n${linksStr}\n`
+        `\n\`\`\`javascript\n${linksStr}\n\`\`\`\n`
       );
       // console.log(replacedContent);
       writeFileSync(filePath, replacedContent, 'utf8');

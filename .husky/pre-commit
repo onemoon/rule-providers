@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run the "format:check" script defined in the package.json file
+npm run format:check
+
+# If there is an error, abort the commit
+if [ $? -ne 0 ]; then
+  echo "WARRING: Commit rejected, please fix the formatting errors."
+  exit 1
+fi
+echo "Formatting successful. Ready to commit."
+# If there is no error, allow the commit
+exit 0
