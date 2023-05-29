@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "commit": "npm run format:check && git-cz",
+    "commit": "git-cz",
     "build": "gulp build",
     "prepare": "husky install",
     "format:check": "prettier --list-different \"**/*{js,mjs,cjs}\"",

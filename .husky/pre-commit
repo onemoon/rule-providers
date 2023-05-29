@@ -9,6 +9,6 @@ if [ $? -ne 0 ]; then
   echo "WARRING: Commit rejected, please fix the formatting errors."
   exit 1
 fi
-echo "Formatting successful. Ready to commit."
+echo "🎉✨ Formatting successful. Ready to commit. 🚀\n"
 # If there is no error, allow the commit
 exit 0
