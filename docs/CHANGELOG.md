@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/onemoon/rule-providers/compare/v1.2.1...v1.3.0) (2023-06-03)
+
+
+### Bug Fixes
+
+* **commit:** commitlint error ([421b562](https://github.com/onemoon/rule-providers/commit/421b562c83cac01028264805120eea4967a8eda9))
+
+
+### Features
+
+* **rules:** add new rules and add transform method ([850a8cf](https://github.com/onemoon/rule-providers/commit/850a8cf4b498f77abaeefc3854061bde3b8f66c6)), closes [#2](https://github.com/onemoon/rule-providers/issues/2)
+
 ## [1.2.1](https://github.com/onemoon/rule-providers/compare/v1.2.0...v1.2.1) (2023-05-29)
 
 
