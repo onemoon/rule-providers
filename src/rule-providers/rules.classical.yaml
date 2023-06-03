@@ -22,7 +22,8 @@ payload:
   - DOMAIN-SUFFIX,ideachat.top
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,angular.io
-  - DOMAIN-SUFFIX,typescriptlang.org
   - DOMAIN-SUFFIX,highcharts.com
+  - DOMAIN-SUFFIX,sonnettech.com
+  - DOMAIN-SUFFIX,sonnetstore.com
   - DOMAIN-KEYWORD,rarbg
   - DOMAIN-KEYWORD,libgen

@@ -12,6 +12,8 @@ https://cdn.jsdelivr.net/npm/@lp-clash/rule-providers@latest/dist/rule-providers
 https://cdn.jsdelivr.net/npm/@lp-clash/rule-providers@latest/dist/rule-providers/rules.domain.yaml
 ```
 
+**_Note:_** Recommend using `classical` type links
+
 ## Software
 
 - [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)

@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "format:check": "prettier --list-different \"**/*{js,mjs,cjs}\"",
     "format:write": "prettier --write \"**/*{js,mjs,cjs}\"",
-    "generate:jsdelivr": "node scripts/jsdelivr.mjs"
+    "generate:jsdelivr": "node scripts/jsdelivr.mjs",
+    "transform:classical-to-domain": "node scripts/classical-to-domain.mjs"
   },
   "repository": {
     "type": "git",
@@ -40,7 +41,8 @@
     "gulp": "^4.0.2",
     "husky": "^8.0.3",
     "prettier": "2.8.8",
-    "semantic-release": "^21.0.2"
+    "semantic-release": "^21.0.2",
+    "yaml": "^2.3.1"
   },
   "files": [
     "dist",

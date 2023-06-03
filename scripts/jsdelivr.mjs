@@ -69,7 +69,7 @@ readdir(directoryPath, (err, files) => {
         return;
       }
       // # Rule sets
-      const regex = /(?<=## jsDelivr links\n)[\s\S]*(?=\n## Software)/;
+      const regex = /(?<=## jsDelivr links\n)[\s\S]*(?=\n\*\*)/;
       const replacedContent = mdContent.replace(
         regex,
         `\n\`\`\`javascript\n${linksStr}\n\`\`\`\n`

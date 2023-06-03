@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Transform
+        run: npm run transform:classical-to-domain
+
       - name: Build
         run: npm run build
 
